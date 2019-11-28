@@ -32,11 +32,6 @@ div {
     .brown, .black, .lightblue {
         flex-basis: calc(100%/3);
     }
-
-    /* .cyan, .red {
-        flex-basis: 50%;
-    } */
-
 }
 
 .orange {
