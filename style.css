@@ -4,11 +4,9 @@
 }
 
 section {
-    background-color: pink;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 div {
@@ -16,9 +14,6 @@ div {
 }
 
 @media (min-width: 601px) {
-    /* .orange, .blue {
-        flex-basis: 100%;
-    } */
     .brown, .black, .lightblue {
         flex-basis: calc(100%/3);
     }
